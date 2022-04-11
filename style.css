@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.screen{
+    background-color: #faebd7;
+    height: 100vh;
+    text-align: center;
+}
+.title{
+    color: #a52a2a;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 80px;
+    padding: 25px;
+}
+.notif{
+    color: #a52a2a;
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+    padding-bottom: 5px;
+}
+.game-board{
+    margin: 0 auto;
+    max-width: 450px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+}
+.tile{
+    border: 1px solid #a52a2a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #deb887;
+    font-family: 'Indie Flower', cursive;
+    font-size: 100px;
+}
+.reset{
+    background-color: #a52a2a;
+    color: #faebd7;
+    font-family: 'Indie Flower', cursive;
+    width: 150px;
+    font-size: 35px;
+    padding: 5px;
+    margin-top: 10px;   
+}
